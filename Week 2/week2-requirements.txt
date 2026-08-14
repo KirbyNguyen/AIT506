@@ -1,0 +1,13 @@
+You are tasked with building a machine learning model to predict whether a bank customer will default on their loan. To do this, you will explore three different types of models: Linear Regression, Support Vector Machines (SVM), and Decision Trees, and compare their performance.
+
+Using this dataset available on the internet or download through Kaggle website. Consider at least five factors that impact on loan default. Start by training a linear regression model to predict the probability of loan default based on these features. Once the model is trained, evaluate its performance by calculating the mean squared error (MSE).
+
+Next, train a Support Vector Machine (SVM) model to classify customers into two categories: default or no default. Use the same features as in the previous step, and evaluate the model's accuracy based on its predictions.
+
+Afterward, build a Decision Tree model to classify customers into default or no default categories. Visualize the Decision Tree and explain how it makes decisions based on the input features. Compare the Decision Tree’s performance with the SVM model, considering the accuracy and interpretability of the model.
+
+Finally, compare the overall performance of the three models: Linear Regression, SVM, and Decision Tree. 
+
+Discuss which model performed best and why, considering factors like accuracy, interpretability, and generalization to new data. 
+
+Submit a short report along with your Jupyter Notebook or Python script, showing the data, models, and your evaluation of each model’s performance.

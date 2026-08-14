@@ -1,0 +1,25 @@
+Go through the example on the Keras website for "Natural language image search with a Dual Encoder". You will learn how to build a model capable of representing both images and text within the same embedding space. This makes it possible to search for images using a text prompt, like in the CLIP model by OpenAI. Interact with the similar tools as much as you want and build a simple model then,
+
+How does the model you built represent both images and text in the same embedding space? Can you explain the process of creating these embeddings for both modalities?
+
+Why is it important for the text and image embeddings to be aligned, and what are the key challenges in achieving this alignment?
+
+What are the main components of the dual encoder architecture, and how do they work together to match images and text?
+
+How does the architecture of this model differ from other traditional neural networks, such as Convolutional Neural Networks (CNNs) for images or Recurrent Neural Networks (RNNs) for text?
+
+How does the model calculate the similarity between a text prompt and an image? Why is cosine similarity commonly used for this purpose in embedding spaces?
+
+What difficulties did you face while training the dual encoder model? Were there any trade-offs you noticed between the model's ability to represent text and images simultaneously?
+
+What role do the negative samples (non-matching text-image pairs) play during training, and how do they help improve the model's performance?
+
+After training, how did you evaluate the model's performance in matching text with images? What metrics did you use, and what did these metrics reveal about the model's effectiveness?
+
+How would you improve the performance of this model if the search results were not satisfactory?
+
+In what real-world scenarios could a dual encoder model like this be applied? How could it enhance or revolutionize industries such as e-commerce, social media, or content moderation?
+
+How well does your model generalize to new, unseen text prompts or images that are significantly different from the training data? What steps would you take to ensure your model generalizes better to diverse types of inputs?
+
+What are some potential ethical concerns in using a model like this for text-based image search? Could biases in the text or image datasets lead to unintended consequences or inaccurate search results?

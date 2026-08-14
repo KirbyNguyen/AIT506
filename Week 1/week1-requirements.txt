@@ -1,0 +1,29 @@
+The dataset should include the some of the following features:
+
+Study Hours: Average hours spent studying per week.
+
+Attendance: Percentage of classes attended.
+
+Past Grades: Average grades from previous semesters (on a 0-100 scale).
+
+Participation in Extracurriculars: Yes (1) or No (0)
+
+The target variable is Performance Level:
+
+1 for high performers (students with final grades above 80 or you can define it),
+
+0 for low performers (students with final grades below 80 or  you can define i).
+
+Once you have the dataset, your tasks are as follows:
+
+Explore the dataset to understand the relationships between features and how they influence student performance. Visualize these relationships using appropriate plots.
+
+Preprocess the data by handling any missing values and outliers. Normalize continuous features like study hours and past grades, and convert categorical features (like participation in extracurriculars) into numerical form.
+
+Split your dataset into training and test sets (80% training, 20% testing). Train a classification model (e.g., Logistic Regression, k-Nearest Neighbors) to predict student performance.
+
+Evaluate your model’s performance using metrics such as accuracy, precision, recall, and F1 score. If the model performs well on the training data but poorly on the test data, analyze the issue and consider whether overfitting might be occurring.
+
+Improve your model using techniques like cross-validation or regularization to enhance its ability to generalize to new data.
+
+Submit a Jupyter Notebook or Python script documenting your entire workflow, along with a brief report explaining your findings, the model's performance, and any steps taken to improve its accuracy and generalization.

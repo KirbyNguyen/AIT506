@@ -1,0 +1,9 @@
+Train a model using a custom training loop to tackle the Fashion MNIST dataset 
+
+Display the epoch, iteration, mean training loss, and mean accuracy over each epoch (updated at each iteration), as well as the validation loss and accuracy at the end of each epoch.
+
+Try using a different optimizer with a different learning rate for the upper layers and the lower layers
+
+When should you create a custom layer versus a custom model?
+
+When would you need to create a dynamic Keras model? How do you do that? Why not make all your models dynamic?

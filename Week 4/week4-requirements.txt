@@ -1,0 +1,9 @@
+You are tasked with segmenting customers based on their purchasing behavior and demographic data using unsupervised learning techniques. Your goal is to group similar customers together and identify distinct customer segments for better marketing strategies.
+
+Download a customer dataset from Kaggle that includes various features such as age, income, purchase frequency, and product preferences.
+
+Use K-Means clustering to group customers into different segments. Determine the optimal number of clusters using methods like the elbow method or silhouette score.
+
+Visualize the customer segments using a 2D or 3D plot based on the most relevant features or principal components.
+
+Interpret the clusters and provide insights into the characteristics of each customer segment. What marketing strategies could be applied to each group to improve engagement or sales?

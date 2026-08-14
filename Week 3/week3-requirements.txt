@@ -1,0 +1,13 @@
+You are tasked with analyzing customer purchasing behavior to identify factors that influence buying decisions. Your goal is to build a predictive model that can forecast whether a customer will make a purchase based on their demographic and behavioral data
+
+Download a relevant dataset from Kaggle that includes features related to customer purchasing behavior, such as age, income, gender, previous purchase history, and website interaction metrics.
+
+Perform an exploratory data analysis (EDA) on the dataset to understand the relationships between the features and the target variable (purchase behavior). Identify any trends or patterns that may exist.
+
+Select an appropriate machine learning algorithm (e.g., Logistic Regression, Decision Trees, or Random Forests) to build your predictive model.
+
+Split your data into training and testing sets. Train your model on the training set and evaluate its performance on the test set using metrics such as accuracy, precision, recall, and the F1 score.
+
+Based on your analysis, provide insights into which factors are most influential in predicting customer purchases. Discuss potential strategies that a company could implement to improve sales based on your findings.
+
+Submit a report detailing your EDA, model development process, evaluation metrics, and insights along with your Jupyter Notebook or Python script.

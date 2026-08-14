@@ -1,0 +1,11 @@
+Use transfer learning for large image classification, going through these
+
+
+
+Create a training set containing at least 100 images per class. For example, you could classify your own pictures based on the location (beach, mountain, city, etc.), or alternatively you can use an existing dataset (e.g., from TensorFlow Datasets).
+
+Split it into a training set, a validation set, and a test set.
+
+Build the input pipeline, apply the appropriate preprocessing operations, and optionally add data augmentation.
+
+Fine-tune a pretrained model on this dataset
