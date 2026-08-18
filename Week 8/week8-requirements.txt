@@ -1,0 +1,29 @@
+You are tasked with exploring the different aspects of TensorFlow's model deployment and optimization methods. This exercise will help you understand how models are saved, deployed, and optimized for different environments, including mobile and distributed systems.
+
+SavedModel Format:
+Explain what a SavedModel contains in TensorFlow. How can you inspect the contents of a SavedModel to understand what is saved within it? Describe the key components and files that are part of this saved format.
+
+TensorFlow Serving:
+Discuss when and why you should use TensorFlow Serving for model deployment. What are its main features, and how does it facilitate scalable and production-ready machine learning model serving? Additionally, name some tools you can use to deploy models with TF Serving.
+
+Deploying Across Multiple Instances:
+Describe how you would deploy a model across multiple TF Serving instances. What strategies would you use to ensure proper load balancing and scalability in such a deployment scenario?
+
+REST vs. gRPC APIs:
+Compare the REST API and gRPC API for querying a model served by TensorFlow Serving. When would it be more appropriate to use the gRPC API rather than the REST API? Discuss performance considerations and any trade-offs between the two options.
+
+TFLite Optimization for Mobile Devices:
+TensorFlow Lite (TFLite) is used to optimize models for mobile and embedded devices. What are the different techniques TFLite uses to reduce a model's size and make it efficient for mobile deployment? Highlight techniques such as model quantization, pruning, and weight sharing.
+
+Quantization-Aware Training:
+Explain what quantization-aware training is and why it is necessary when optimizing models for deployment on mobile or embedded devices. What advantages does it offer over post-training quantization?
+
+Model Parallelism vs. Data Parallelism:
+Define model parallelism and data parallelism in the context of distributed machine learning. Why is data parallelism generally the recommended approach for scaling machine learning training across multiple devices? Provide scenarios where model parallelism might still be appropriate.
+
+Distributed Training Strategies:
+When training a model across multiple servers, you can employ various distribution strategies such as synchronous or asynchronous training. Explain the different distribution strategies available in TensorFlow and describe how you would choose the appropriate strategy based on the model architecture, data, and available hardware resources.
+
+Once you have answered the questions, reflect on the following:
+What are the key challenges in deploying and optimizing machine learning models across different platforms (cloud, mobile, distributed servers)?
+How do these deployment strategies affect model performance, latency, and scalability in real-world applications?
